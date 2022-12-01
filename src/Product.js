@@ -7,6 +7,7 @@ class Product{
     this.description= product.description;
     this.image = product.image;
     this.footerDescription=product.footerDescription;
+    this.textEffect= product.textEffect;
  }
 
 };

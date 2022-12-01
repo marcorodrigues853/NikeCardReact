@@ -14,7 +14,8 @@ function Card(){
     title: 'AIR REACT 20x',
     description: `From the Flymesh upper to the triple-density foam midsole, the Nike Air Zoom Structure 19 Men's Running Shoe offers plenty of support and the response you need for a smooth, stable ride that feels ultra fast.`,
     image: 'image',
-    footerDescription:'MEN REACT SHOES'
+    footerDescription:'MEN REACT SHOES',
+    textEffect: 'AIR'
   }
 
   const product = new Product(productInfo);
@@ -25,6 +26,7 @@ function Card(){
 
       <Header  price={product.price} brand={product.brand}/>
       <BodyCard title={product.title} description={product.description}/>
+      <span className="text-effect">{product.textEffect}</span>
 
       </div>
         <Image/>
