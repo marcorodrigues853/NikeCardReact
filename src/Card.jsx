@@ -9,12 +9,12 @@ import {Product} from './Product'
 function Card(){
 
   const productInfo ={
-    brand: 'Nike',
-    price: 120,
-    title: 'AIR STRUCTURE 1',
+    brand: 'Nike Nelson', // to feed alt of logo brand
+    price: 269,
+    title: 'AIR REACT 20x',
     description: `From the Flymesh upper to the triple-density foam midsole, the Nike Air Zoom Structure 19 Men's Running Shoe offers plenty of support and the response you need for a smooth, stable ride that feels ultra fast.`,
     image: 'image',
-    footerDescription:'MEN RUNNING SHOES'
+    footerDescription:'MEN REACT SHOES'
   }
 
   const product = new Product(productInfo);
